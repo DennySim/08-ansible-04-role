@@ -1,4 +1,4 @@
-# 08-ansible-03-yandex
+# 08-ansible-04-role
 
 1) Описание playbook
     - Playbook устанавливает и настраивает elasticsearch, kibana, filebeat.
@@ -10,7 +10,8 @@
     - Этапы развертывания:
         - Создание трех виртульных машин на базе Centos7 в облаке Яндекса
         - Генерация inventory-файла hosts.yml
-        - Запуск ansible с установкой и настройкой elasticsearch, kibana, filebeat
+        - Запуск ansible с установкой и настройкой elasticsearch, kibana, filebeat.
+        - elasticsearch, kibana, filebeat устанавливаются ввиде ролей из удаленных репозиториев
         
 
 
